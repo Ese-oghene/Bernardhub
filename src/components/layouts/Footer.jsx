@@ -9,12 +9,11 @@ const Footer = () => {
         {/* Brand */}
         <div>
           <Link to="/" className="flex items-center gap-2 font-bold text-lg">
-        
             BernardHub
           </Link>
           <p className="mt-4 text-sm text-gray-600">
-            Empowering users with smart digital solutions, services, and tools
-            to grow faster and better.
+            Book trusted keke rides and find your next home in Ughelli all in one
+            simple platform.
           </p>
         </div>
 

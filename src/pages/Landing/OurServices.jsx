@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import kekeImage from "../../assets/images/keke.png";
+import HouseImage from "../../assets/images/house.png";
 
 const OurServices = () => {
   return (
@@ -19,40 +22,46 @@ const OurServices = () => {
         <div className="flex flex-col md:flex-row gap-8 justify-center">
 
           {/* Keke Service */}
-          <div className="flex-1 max-w-md bg-gray-50 border rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+          <Link
+            to="/keke"
+            className="flex-1 max-w-md bg-gray-50 border rounded-xl overflow-hidden
+            shadow-sm hover:shadow-md transition hover:-translate-y-1"
+          >
             <div className="p-6">
               <h3 className="text-xl font-semibold text-[var(--primary-color)] mb-4">
                 Keke Services
               </h3>
             </div>
 
-            {/* Image */}
-            <div className="h-56 w-full">
+            <div className="h-56 w-full flex items-center justify-center bg-white">
               <img
-                src="/images/delta-keke.jpg"
+                src={kekeImage}
                 alt="Delta State Keke Service"
-                className="w-full h-full object-cover"
+                className="max-h-full max-w-full object-contain"
               />
             </div>
-          </div>
+          </Link>
 
           {/* Real Estate Service */}
-          <div className="flex-1 max-w-md bg-gray-50 border rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+          <Link
+            to="/real-estate"
+            className="flex-1 max-w-md bg-gray-50 border rounded-xl overflow-hidden
+            shadow-sm hover:shadow-md transition hover:-translate-y-1"
+          >
             <div className="p-6">
               <h3 className="text-xl font-semibold text-[var(--primary-color)] mb-4">
                 Real Estate Services
               </h3>
             </div>
 
-            {/* Image */}
-            <div className="h-56 w-full justify-center items-center flex">
+            <div className="h-56 w-full flex items-center justify-center bg-white">
               <img
-                src="/images/real-estate.jpg"
+                src={HouseImage}
                 alt="Real Estate Service"
-                className="w-full h-full object-cover"
+                className="max-h-full max-w-full object-contain"
               />
             </div>
-          </div>
+          </Link>
 
         </div>
       </div>

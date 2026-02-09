@@ -9,13 +9,13 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between relative">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 font-bold text-lg z-10">
-          <span
+          {/* <span
             className="w-8 h-8 rounded-md flex items-center justify-center
               bg-[var(--primary-color)] text-white"
           >
             B
-          </span>
-          Bernard’s Hub
+          </span> */}
+          BernardHub
         </Link>
 
         {/* Desktop Links */}
