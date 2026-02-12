@@ -1,39 +1,42 @@
 // src/data/drivers.js
+
+// import mike from "../drivers/mike.jpg";
+// import bridget from "../drivers/bridget.jpg";
+// import sunny from "../drivers/sunny.jpg";
+// import luke from "../assets/drivers/luke.jpg";
+
+import luke from "../drivers/luke.jpg";
+import mike from "../drivers/mike.jpg";
+ import bridget from "../drivers/1.jpg";
+// import sunny from "../drivers/sunny.jpg";
+
 export const drivers = [
   {
     id: 1,
-    name: "John Doe",
-    location: "Oleh to Ughelli",
-     phone: "2348098765432",
-    whatsapp: "2348098765432",
+    name: "Mr Luke",
+    location: "Oleh",
+    phone: "2348032625925",
+    whatsapp: "2348032625925",
     status: "Available",
-    image: "https://randomuser.me/api/portraits/men/32.jpg",
+    image: luke,
   },
   {
     id: 2,
-    name: "Jane Smith",
-    location: "Ekiugbo to Otowodo",
-    phone: "2348012345678",
-    whatsapp: "2348012345678",
+    name: "Mr Mike",
+    location: "Oleh",
+    phone: "2348107694841",
+    whatsapp: "2348107694841",
     status: "Available",
-    image: "https://randomuser.me/api/portraits/women/44.jpg",
+    image: mike,
   },
   {
     id: 3,
-    name: "Mike Johnson",
-    location: "Abraka",
-     phone: "2348098765432",
-    whatsapp: "2348098765432",
+    name: "Mr Bridget",
+    location: "Ughelli",
+    phone: "2349065083701",
+    whatsapp: "2349065083701",
     status: "Busy",
-    image: "https://randomuser.me/api/portraits/men/55.jpg",
+    image: bridget,
   },
-  {
-    id: 4,
-    name: "Mary Obi",
-    location: "Oleh",
-    phone: "2348012345678",
-    whatsapp: "2348012345678",
-    status: "Available",
-    image: "https://randomuser.me/api/portraits/women/66.jpg",
-  },
+  
 ];
