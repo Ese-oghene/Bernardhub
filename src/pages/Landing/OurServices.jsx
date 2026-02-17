@@ -27,7 +27,7 @@ const OurServices = () => {
             className="flex-1 max-w-md bg-gray-50 border rounded-xl overflow-hidden
             shadow-sm hover:shadow-md transition hover:-translate-y-1"
           >
-            <div className="p-6">
+            <div className="p-6 text-center">
               <h3 className="text-xl font-semibold text-[var(--primary-color)] mb-4">
                 Keke Services
               </h3>
@@ -48,7 +48,7 @@ const OurServices = () => {
             className="flex-1 max-w-md bg-gray-50 border rounded-xl overflow-hidden
             shadow-sm hover:shadow-md transition hover:-translate-y-1"
           >
-            <div className="p-6">
+            <div className="p-6 text-center">
               <h3 className="text-xl font-semibold text-[var(--primary-color)] mb-4">
                 Real Estate Services
               </h3>

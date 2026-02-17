@@ -1,10 +1,4 @@
 // src/data/drivers.js
-
-// import mike from "../drivers/mike.jpg";
-// import bridget from "../drivers/bridget.jpg";
-// import sunny from "../drivers/sunny.jpg";
-// import luke from "../assets/drivers/luke.jpg";
-
 import luke from "../drivers/luke.jpg";
 import mike from "../drivers/mike.jpg";
  import bridget from "../drivers/1.jpg";
@@ -31,7 +25,7 @@ export const drivers = [
   },
   {
     id: 3,
-    name: "Mr Bridget",
+    name: "Mrs Bridget",
     location: "Ughelli",
     phone: "2349065083701",
     whatsapp: "2349065083701",
