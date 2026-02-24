@@ -67,13 +67,7 @@ const Navbar = () => {
       >
         <div className="px-6 py-6 flex justify-between items-center border-b">
           <Link to="/" className="flex items-center gap-2 font-bold text-lg">
-            <span
-              className="w-8 h-8 rounded-md flex items-center justify-center
-                bg-[var(--primary-color)] text-white"
-            >
-              B
-            </span>
-            Bernard’s Hub
+            BernardHub
           </Link>
           <button
             className="text-2xl"

@@ -1,5 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
+import WhatsAppFloat from "../common/WhatsAppFloat";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
@@ -9,6 +10,7 @@ const MainLayout = () => {
       <Navbar />
       <Outlet />
       <Footer />
+      <WhatsAppFloat />
     </>
   );
 };
