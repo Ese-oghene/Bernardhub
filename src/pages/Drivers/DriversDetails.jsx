@@ -8,7 +8,7 @@ const DriversDetails = () => {
   const { id } = useParams();
   const driver = drivers.find(d => d.id === Number(id));
 
-  // 🚨 Handle missing driver
+
   if (!driver) {
     return (
       <div className="min-h-screen flex items-center justify-center">
